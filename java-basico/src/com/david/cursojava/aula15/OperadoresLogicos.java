@@ -12,5 +12,12 @@ public class OperadoresLogicos {
 
         boolean resultado2 = (valor1 == 1) || (valor2 ==2);
         System.out.println("valor1 é 1 OR valor2 é 2 - resultado: " + resultado2);
+
+        boolean verdadeiro = true;
+        boolean falso = false;
+        System.out.println(verdadeiro && falso);
+        System.out.println(verdadeiro || falso);
+        System.out.println(verdadeiro ^ falso);
+        System.out.println(!verdadeiro || falso);
     }
 }
