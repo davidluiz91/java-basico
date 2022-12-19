@@ -11,7 +11,7 @@ public class BreakEContinue {
         System.out.println("entre com um limite: ");
         int max = scan.nextInt();
 
-        for (int i = num; i<=max;i++){
+        for (int i = num; i<=max; i++){
             System.out.println(i);
             if (i % 7 == 0){
                 System.out.println("o valor de i é: " + i);
